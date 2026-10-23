@@ -1,0 +1,28 @@
+﻿# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Node y React
+node_modules/
+dist/
+
+# Modelos y datos grandes
+*.pt
+*.pth
+*.onnx
+data/raw/
