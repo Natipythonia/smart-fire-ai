@@ -26,3 +26,6 @@ dist/
 *.pth
 *.onnx
 data/raw/
+
+# Datos e imagenes de prueba locales
+data/
